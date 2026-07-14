@@ -197,7 +197,7 @@ h2 {
 
 .previews {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   height: auto;
@@ -226,6 +226,9 @@ h2 {
 }
 .preview4 {
   grid-column: 4;
+}
+.preview5 {
+  grid-column: 5;
 }
 
 /**************************************************/
